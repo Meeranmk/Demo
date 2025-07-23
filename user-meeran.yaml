@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: meeran
+  description: Meeran from Prodapt team
+spec:
+  profile:
+    displayName: Meeran
+    email: meeran@example.com
+  memberOf:
+    - prodapt
