@@ -12,9 +12,5 @@ spec:
   lifecycle: development
   owner: user:meeran
   system: engagement-portal
-  dependsOn:
-    - resource:default/artists-db
-  dependencyOf:
-    - component:default/artist-web-lookup
   providesApis:
     - sysco-api
